@@ -28,6 +28,8 @@ public class Investidor {
     public BigDecimal getAporte() { return dadosInvestidor.getAporte();}
 
     public LocalDate getDataUltimoIR() { return dataUltimoIR;}
+
+    public BigDecimal atualizarAporte(BigDecimal ganhoAjustado) { return ganhoAjustado;}
 }
 
 //  "L" de S.O.L.I.D. pois essa classe não precisa herdar todas as informações da classe
